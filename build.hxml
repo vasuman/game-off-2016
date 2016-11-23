@@ -1,0 +1,8 @@
+-cp src/
+-main mainframe.Main
+
+-js out/main.js
+-D js-flatten
+-dce full
+
+-cmd cp index.html out/
